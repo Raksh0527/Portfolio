@@ -5,19 +5,19 @@ export const projects = [
     description: 'Responsive personal portfolio built with React.js, featuring smooth animations, dark/light sections, and deployed on GitHub Pages.',
     tech: ['React.js', 'CSS3', 'GitHub Pages'],
     github: 'https://github.com/Raksh0527/Portfolio',
-    live: 'https://github.com/Raksh0527/Portfolio',
+    live: 'https://raksh0527.github.io/Portfolio/',
     tag: 'Frontend'
   },
   {
     id: 2,
-    title: 'IT Ticket Tracker',
-    description: 'Full stack helpdesk app to create, assign, and resolve IT support tickets. Built from my real experience managing 20-30 tickets/week.',
-    tech: ['React.js', 'Node.js', 'MySQL', 'REST API'],
-    github: 'https://github.com/rakshith-k/ticket-tracker',
+    title: 'Movies IMDB Rating Checker',
+    description: 'A movie rating checker website where users can search for movies and instantly view their IMDb ratings, release year, genre, and other basic details in a simple and user-friendly interface.',
+    tech: ['HTML', 'CSS', 'JAVASCRIPT', 'API'],
+    github: 'https://github.com/Raksh0527/Movies-IMDB-Rating-Checker/settings/pages',
     live: '',
-    tag: 'Full Stack'
+    tag: 'Frontend'
   },
-  {
+ /* {
     id: 3,
     title: 'Task Manager REST API',
     description: 'RESTful API for task management with JWT authentication, full CRUD operations, and documented with Postman.',
@@ -25,5 +25,5 @@ export const projects = [
     github: 'https://github.com/rakshith-k/task-api',
     live: '',
     tag: 'Backend'
-  },
+  },*/
 ];

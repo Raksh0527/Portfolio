@@ -10,7 +10,7 @@ function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const links = ['About', 'Skills', 'Projects', 'Certifications', 'Contact'];
+  const links = ['About', 'Skills', 'Projects', 'Contact'];
 
   return (
     <nav style={{
