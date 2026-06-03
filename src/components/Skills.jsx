@@ -2,18 +2,17 @@ import { useEffect, useRef, useState } from 'react';
 
 const skills = [
   { name: 'HTML5 & CSS3', level: 90, color: '#1a73e8' },
-  { name: 'JavaScript (ES6+)', level: 70, color: '#1a73e8' },
+  { name: 'JavaScript (ES6+)', level: 78, color: '#1a73e8' },
   { name: 'React.js', level: 65, color: '#1a73e8' },
   { name: 'Node.js & Express', level: 55, color: '#4a90d9' },
-  { name: 'Java', level: 85, color: '#4a90d9' },
   { name: 'SQL & MySQL', level: 62, color: '#4a90d9' },
   { name: 'Git & GitHub', level: 75, color: '#4a90d9' },
   { name: 'REST APIs', level: 60, color: '#1557b0' },
   { name: 'System Administration', level: 85, color: '#1557b0' },
 ];
 
-const tools = ['VS Code', 'Git', 'GitHub','MySQL Workbench',
-  'Active Directory', 'Windows Server','Claude AI'];
+const tools = ['VS Code', 'Git', 'GitHub', 'Postman', 'MySQL Workbench',
+  'Active Directory', 'Windows Server', 'Linux'];
 
 function Skills() {
   const [animated, setAnimated] = useState(false);

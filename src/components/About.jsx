@@ -32,12 +32,16 @@ function About() {
               Development certification and am actively seeking full-time developer roles.
             </p>
             <a href="#contact" style={{
-              background: '#1a73e8', color: '#fff',
-              padding: '0.75rem 1.75rem', borderRadius: '8px',
-              fontWeight: 600, display: 'inline-block'
-            }}>
-              Download CV
-            </a>
+             background: '#1a73e8',
+             color: '#fff',
+             padding: '0.75rem 1.75rem',
+             borderRadius: '8px',
+             fontWeight: 600,
+             display: 'inline-block'
+          }}
+          >
+              Contact Me
+          </a>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
