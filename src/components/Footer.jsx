@@ -11,10 +11,11 @@ function Footer() {
         {[
           { label: 'GitHub', url: 'https://github.com/rakshith-k' },
           { label: 'LinkedIn', url: 'https://linkedin.com/in/rakshithk-27dec' },
-          { label: 'Email', url: 'mailto:aryarakshith95@gmail.com' },
+          { label: 'Email', url: 'mailto:aryarakshith95@gmail.com', newTab: false }
         ].map(link => (
-          <a key={link.label} href={link.url}
-            target="_blank" rel="noreferrer"
+          <a  href={link.url}
+          target={link.newTab ? "_blank" : undefined}
+          rel={link.newTab ? "noreferrer" : undefined}
             style={{ color: '#6b7280', fontSize: '0.9rem', transition: 'color 0.2s' }}
             onMouseEnter={e => e.target.style.color = '#1a73e8'}
             onMouseLeave={e => e.target.style.color = '#6b7280'}
