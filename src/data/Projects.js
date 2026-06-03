@@ -4,8 +4,8 @@ export const projects = [
     title: 'Portfolio Website',
     description: 'Responsive personal portfolio built with React.js, featuring smooth animations, dark/light sections, and deployed on GitHub Pages.',
     tech: ['React.js', 'CSS3', 'GitHub Pages'],
-    github: 'https://github.com/Raksh0527/Portfolio',
-    live: 'https://github.com/Raksh0527/Portfolio',
+    github: '',
+    live: '',
     tag: 'Frontend'
   },
   {
